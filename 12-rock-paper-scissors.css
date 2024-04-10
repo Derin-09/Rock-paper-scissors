@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(25,25,25);
+    color: white;
+    font-family: arial;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .move-icon {
+    height: 50px;
+  }
+  .move-button {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .move-button:hover {
+    background-color: white;
+  }
+  .move-button:active {
+    background-color: black;
+  }
+  .js-result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .js-score {
+    margin-top: 40px;
+  }
+  .reset, .auto-play-button{
+    height: 30px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
